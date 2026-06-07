@@ -44,6 +44,11 @@ nav a{
     letter-spacing: .04em;
     margin: 6px;
 }
+
+nav a:hover{
+    color: rgb(247, 247, 247);
+
+}
 .hero-section{
     /* Makes the hero section at least the full height of the screen */
     min-height: 100vh;
@@ -60,18 +65,20 @@ nav a{
     color: white;
 
     max-width: 500px;
-    padding: 30px;
-
+    padding: 40px 20px;
+    margin: 0 auto;
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.25);
     backdrop-filter: blue(8px);
-    box-shadow: 0 8px 30px rgba(0,0,0, .25)
+    box-shadow: 0 8px 30px rgba(0,0,0, .25);
+    align-items: center;
 }
 
 .hero-card h2{
     margin-top: 0;
     margin-bottom: 12px;
-    font-size: 3rem;
+    font-size: 2.2rem;
+    align-items: center;
 }
 
 .hero-card p{
@@ -80,14 +87,19 @@ nav a{
 }
 
 .hero-card button{
+    display: block;
+    margin: 0 auto;
     padding: 12px 20px;
     border:none; 
     border-radius: 8px;
     color: #10294a;
-
     background: white;
-
     cursor: pointer;
-
+    
 }
 
+
+.hero-card button:hover{
+    background-color: rgb(151, 175, 198);
+    box-shadow: 0 0 10px rgba(247, 247, 247, 0.529);
+}
