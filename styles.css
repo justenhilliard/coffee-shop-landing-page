@@ -47,4 +47,26 @@ nav a{
 .hero-section{
     /* Makes the hero section at least the full height of the screen */
     min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    padding: 60px 40px;
+
+    background: linear-gradient(135deg, #06101f, #10294a, #274d7d);
+
 }
+
+.hero-card{
+    background: rgb(255,255, 255, .12);
+    color: white;
+
+    max-width: 500px;
+    padding: 30px;
+
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blue(8px);
+    box-shadow: 0 8px 30px rgba(0,0,0, .25)
+}
+
+
