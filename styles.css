@@ -69,4 +69,26 @@ nav a{
     box-shadow: 0 8px 30px rgba(0,0,0, .25)
 }
 
+.hero-card h2{
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 3rem;
+}
+
+.hero-card p{
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.hero-card button{
+    padding: 12px 20px;
+    border:none; 
+    border-radius: 8px;
+    color: #10294a;
+
+    background: white;
+
+    cursor: pointer;
+
+}
 
