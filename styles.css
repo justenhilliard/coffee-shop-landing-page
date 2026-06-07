@@ -47,13 +47,12 @@ nav a{
 .hero-section{
     /* Makes the hero section at least the full height of the screen */
     min-height: 100vh;
-
     display: flex;
     align-items: center;
     padding: 60px 40px;
-
-    background: linear-gradient(135deg, #06101f, #10294a, #274d7d);
-
+    background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWxtNGhlOG5mdGJnNjhpM3VmdnRoYXp6cW9ucGFjNDQwdXQxand1ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ohjV1GSknq8R73hVS/giphy.gif");
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-card{
