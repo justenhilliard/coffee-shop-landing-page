@@ -1,4 +1,5 @@
 *{
+    /* Making paddings & border stay inside the element's width/height */
     box-sizing: border-box;
 }
 
@@ -12,6 +13,8 @@ body{
 
 header{
     display: flex;
+
+    /* Pushes title to the left and nav to the right */
     justify-content: space-between;
     align-items: center;
     padding: 0px 40px;
@@ -27,8 +30,11 @@ header h1{
 }
 
 nav{
-    margin: 0;
-    color: white
+    color: white;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
 }
 
 nav a{
@@ -39,5 +45,6 @@ nav a{
     margin: 6px;
 }
 .hero-section{
+    /* Makes the hero section at least the full height of the screen */
     min-height: 100vh;
 }
