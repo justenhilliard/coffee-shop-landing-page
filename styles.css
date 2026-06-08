@@ -103,3 +103,30 @@ nav a:hover{
     background-color: rgb(151, 175, 198);
     box-shadow: 0 0 10px rgba(247, 247, 247, 0.529);
 }
+
+h1, h2, p {
+    margin: 0;
+}
+
+.featured{
+    margin: 0;
+    background: linear-gradient(180deg, #081120 0%, #10294a 45%, #1c456f 75%, #355f8c 100%);
+    padding: 60px 40px;
+}
+
+.featured h2{
+    color: white;
+}
+
+.featured-container{
+    display: flex;
+    overflow: scroll;
+    gap: 10px;
+}
+.product-card{
+    background-color: white;
+    border-radius: 12px;
+
+    width: 600px;
+    height: 600px
+}
