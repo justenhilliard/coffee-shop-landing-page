@@ -258,3 +258,96 @@ p{
     font-size: 3rem;
     margin-bottom: 12px;
 }
+
+.hours-location{
+    min-height: 80vh;
+    padding: 70px 40px;
+    background: linear-gradient(180deg, #081120 0%, #10294a 55%, #1c456f 100%);
+    color: white;
+
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.location-info{
+    max-width: 520px;
+}
+
+.section-label{
+    color: skyblue;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .85rem;
+    font-weight: bold;
+}
+
+.hours-location h2{
+    color: white;
+    font-size: 2.8rem;
+    margin: 10px 0 16px;
+}
+
+.location-description{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, .85);
+}
+
+.address-box{
+    margin-top: 30px;
+    padding: 24px;
+    background: rgba(255, 255, 255, .12);
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+}
+
+.address-box h3{
+    color: white;
+    margin-bottom: 8px;
+}
+
+.address-box p{
+    color: rgba(255, 255, 255, .85);
+}
+
+.hours-card{
+    background: rgba(255, 255, 255, .12);
+    width: 100%;
+    max-width: 520px;
+    padding: 34px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, .25);
+    box-shadow: 0 12px 28px rgba(0,0,0,.25);
+    backdrop-filter: blur(8px);
+}
+
+.hours-card h3{
+    color: white;
+    font-size: 1.6rem;
+    margin-bottom: 24px;
+}
+
+.hours-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .18);
+}
+
+.hours-row:last-child{
+    border-bottom: none;
+}
+
+.hours-row span:first-child{
+    color: rgba(255, 255, 255, .85);
+}
+
+.hours-row span:last-child{
+    color: skyblue;
+    font-weight: bold;
+}
