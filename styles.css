@@ -135,8 +135,11 @@ p{
 .featured-container{
     margin: 40px 10px;
     display: flex;
-    overflow: scroll;
     gap: 10px;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+
 }
 .product-card{
     background-color: white;
@@ -193,4 +196,37 @@ p{
 .featured a:hover{
     background-color: rgb(151, 175, 198);
     box-shadow: 0 0 10px rgba(247, 247, 247, 0.529);
+}
+
+
+
+.why-cafe{
+    height: 100vh;
+    background: #f4efe7;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.why-container{
+    flex: 1;
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.why-card{
+    min-height: 100%;
+    width: 100%;
+
+    padding: 60px 40px;
+    background: white;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
