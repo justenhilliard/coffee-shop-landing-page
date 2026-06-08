@@ -119,7 +119,7 @@ h1, h2, p {
 }
 
 .featured h3{
-    color: Black;
+    color: rgb(255, 255, 255);
     margin: 0px;
     font-style: bold;
 }
@@ -142,7 +142,7 @@ p{
     background-color: white;
     border-radius: 12px;
 
-    flex: 0 0 80%;
+    flex: 0 0 70%;
     min-width: 280px;
     max-width: 900px;
     min-height: 420px;
@@ -153,8 +153,29 @@ p{
     flex-direction: column;
     align-items: flex-start;
 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
 }
 
+
+.latte{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(https://live.staticflickr.com/201/440830172_1f08a926e3_b.jpg);
+
+}
+
+.matcha{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(https://live.staticflickr.com/3231/3122544172_0acaccaa0f_b.jpg);
+}
+
+.mocktail{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(https://live.staticflickr.com/3179/2591109524_1af36ce1f7_b.jpg);
+}
+
+.brew{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(https://live.staticflickr.com/3899/14754212070_e947011bc6_b.jpg);
+}
 .featured a{
     display: inline-block;
     text-decoration: none;
